@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FROM - TAG</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <!-- <form> </form> -->
+    <!-- interactive form where users can input data, such as login details, search queries, or feedback. -->
+
+    <form  id="frm" name="frm" action="welcom.html" enctype="multipart/form-data" method="post">
+
+        <!-- For Name -->
+        <label>Enter name </label>
+        <input type="text" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- For email -->
+        <label>Enter Email</label>
+        <input type="text" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- For gemder -->
+        <label>Enter Gender</label>
+        Male :<input type="radio" name="Gender" value="male">
+        Female : <input type="radio" name="Gender" value="female">
+        Other : <input type="radio" name="Gender" value="other">
+        <br><br>
+
+        <!-- For checkbox -->
+        <label>Select Tachnology</label>
+        Java : <input type="checkbox" name="tech" value="Java">
+        React : <input type="checkbox" name="tech" value="React">
+        Mern : <input type="checkbox" name="tech" value="Mern">
+        Full stack : <input type="checkbox" name="tech" value="Full stack">
+        Node : <input type="checkbox" name="tech" value="Node">
+        <br><br>
+
+        <!-- For Options -->
+        <label>Select State</label>
+        <select name="state" >
+                <Option value="1">Gujrat</Option>
+                <Option value="1">Maharastra</Option>
+                <Option value="1">Madhya pradesh</Option>
+                <Option value="1">Banglor</Option>
+        </select>
+        <br><br>
+
+         <!-- For File , Photo , Video -->
+        <label>Upload your Photo</label>
+        <input type="file" name="photo">
+        <br><br>
+
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
