@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pseudo class selector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+
+        }
+        .links
+        {
+            width: 100%;
+            height: auto;
+            margin: auto;
+            background-color: lightgreen;
+        }
+        .links ul
+        {
+            margin: 0;
+            padding: 0;
+            top: 0;   
+        }
+        .links ul li
+        {
+            display: inline-block;
+            padding: 25px 30px;
+        }
+        .links a
+        {
+            color: blue;
+            font-size: 25px;
+            text-decoration: none;
+            text-transform: none;
+        }
+
+        /* Pseudo class selector */
+        .links a:link
+        {
+            color: blue;
+        }
+        .links a:active
+        {   
+            color: white;
+        }
+        .links a:hover
+        {
+            color: red;
+        }
+
+        .Links a:visited
+        {
+            color:coral
+        }
+        .active
+        {
+            border: solid 2px black;
+            padding: 10px;   
+        }
+</style>
+</head>
+<body>
+    
+    <div class="links">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>         
+    </div>
+
+</body>
+</html>

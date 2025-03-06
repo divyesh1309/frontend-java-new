@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Child combinator selector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        div 
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+            margin-top: 5%;
+            border: 5px dotted black;
+        }
+        div > h1
+        {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: red;
+        }
+        div > p
+        {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Child combinator selector means that the element is directly child of the parent element -->
+
+    <div>
+        <h1>About me</h1>
+        <p>i am a passionate coder who loves exploring and learning new technologies AI/ML every day. Currently, I am focused on frontend development while also strengthening my C++ skills.</p>
+    </div>
+    
+    <div>
+        <h1>About me</h1>
+        <p>i am a passionate coder who loves exploring and learning new technologies AI/ML every day. Currently, I am focused on frontend development while also strengthening my C++ skills.</p>
+    </div>
+    
+    <div>
+        <h1>About me</h1>
+        <p>i am a passionate coder who loves exploring and learning new technologies AI/ML every day. Currently, I am focused on frontend development while also strengthening my C++ skills.</p>
+    </div>
+
+</body>
+</html>
