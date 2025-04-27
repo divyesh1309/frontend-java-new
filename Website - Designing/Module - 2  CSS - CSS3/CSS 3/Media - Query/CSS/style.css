@@ -1,0 +1,620 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+}
+#header
+{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.call-us
+{
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    font-size: 22px;
+}
+.search-box
+{
+    width: 50%;
+    height: auto;
+    padding: 15px;
+}
+.search-box input
+{
+    width: 90%;
+    height: auto;
+    padding: 8px;
+}
+.account
+{
+    width: 20%;
+    height: auto;
+    padding: 15px;
+}
+.account button 
+{
+    width: 50%;
+    height: auto;
+    padding: 8px;    
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+#Navigation
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+.logo
+{
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar
+{
+    width: 70%;
+    height: auto;
+    padding: 8px;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 22px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+}
+.toggler
+{
+display: none;    
+}
+
+#banner
+{
+    width: 100%;
+    height: auto !important;
+    margin: auto ;
+    margin-top: 3%;
+}
+#banner img
+{
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+}
+
+#content
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    padding: 15px;
+}
+
+#content h1
+{
+    font-size: 45px;
+    text-align: center;
+}
+
+#content hr
+{
+    width: 30%;
+    height: auto;
+    border: dotted 4px black;
+}
+
+.all-products
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.products
+{
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin-top: 3%;
+    background-color: white;
+}
+
+.products img
+{
+    width: 65%;
+    height: 250px;
+}
+
+.contact
+{
+    width: 50%;
+    height: auto;
+    display: block;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5px;
+    box-shadow: 0px 3px 3px 3px rgb(156, 156, 156);
+
+}
+.address
+{
+    width: 60%;
+    height: auto;
+    padding: 15px;
+    font-size: 25px;    
+    margin-left: 23%;
+    
+}
+.contact-form
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    font-size: 10px;    
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2%;
+    box-shadow: 0px 3px 3px 3px rgb(156, 156, 156);
+    
+}
+.contact-form form
+{
+    margin-top: 2%;
+    padding: 10px;   
+}
+
+.contact-form input[type="text"]
+{
+    width: 60%;
+    height: auto;
+    padding: 5px;
+    border: none;
+    border-radius: 2px; 
+    margin-left: 18%;
+    border: solid 1px black;
+}
+.contact-form textarea
+{
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    border: none;
+    margin-left: 18%;
+    border: solid 1px black;
+}
+.contact-form input[type="submit"]
+{
+    width: 20%;
+    height: auto;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px; 
+    margin-left: 18%;
+    border: solid 1px rgb(172, 172, 172);
+}
+.contact-form input[type="reset"]
+{
+    width: 20%;
+    height: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px; 
+    border: solid 1px black;
+}
+
+#footer
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: #2b2b2b;
+    color: white;
+    margin-top: 5%;
+}
+.footer-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-container div 
+{
+    width: 200px;
+    margin: 10px;
+}
+.footer-category ul, .footer-support ul 
+{
+    list-style: none;
+    padding: 0;
+}
+.footer-category ul li, .footer-support ul li 
+{
+    margin: 5px 0;
+}
+.footer-category ul li a, .footer-support ul li a, .footer-social a 
+{
+    color: #b9b9b9;
+    text-decoration: none;
+}
+.footer-social a 
+{
+    margin: 0 10px;
+    font-size: 16px;
+    color: #bbb;
+}
+.footer-newsletter input 
+{
+    width: 80%;
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 2px; 
+    border: solid 1px black;
+}
+.footer-newsletter button 
+{
+    width: 40%;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 2px; 
+    border: solid 1px black;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.footer-bottom 
+{
+    margin-top: 20px;
+    font-size: 16px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:580px)
+{
+
+body
+{
+    margin: 0;
+    padding: 0 !important;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #c4c1c1;
+    /* background: url('../Images/back.avif') ;
+    background: url('../Images/head.jpg') no-repeat; */
+    background-size: cover ;
+    background-position: center;
+}
+    
+#header
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    /* background-color: white; */
+    background: url('../Images/head.jpg') no-repeat;
+    background-size: cover ;
+    background-position: center;
+    display: block;    
+}
+.call-us
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+.search-box
+{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 6px;
+}
+.search-box input
+{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    margin: auto;
+}
+.account
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.account button 
+{
+    width: 40%;
+    height: auto;
+    padding: 8px;    
+    margin-left: 30%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+#Navigation
+{
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.logo
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+}
+.toggler
+{
+    display: block;
+    width: 40%; 
+    height: 60px;
+    margin-top: 6%;
+    margin-left: 35%;
+    background-color: black;
+    box-shadow: 1px 1px 1px white;  
+   
+}
+
+.navbar
+{
+    display: none !important;
+}
+
+
+#banner
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+#banner img
+{
+    width: 95%;
+    height: 230px;
+    margin-left: 4%;   
+}
+
+
+#content h1
+{
+    font-size: 30px;
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#content hr
+{
+    width: 30%;
+    height: auto;
+    border: dotted 4px black;
+}
+
+.all-products
+{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.products
+{
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin-top: 3%;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+.products img
+{
+    width: 70%;
+    height: 230px;
+    
+}
+
+
+.contact
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5px;
+    box-shadow: 0px 3px 3px 3px rgb(156, 156, 156);
+
+}
+.address
+{
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    font-size: 25px;    
+    margin-left: 13%;
+    
+}
+.contact-form
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    font-size: 10px;    
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0px 3px 3px 3px rgb(156, 156, 156);
+    
+}
+.contact-form form
+{
+    margin-top: 2%;
+    padding: 10px;   
+}
+
+.contact-form input[type="text"]
+{
+    width: 70%;
+    height: auto;
+    padding: 5px;
+    border: none;
+    border-radius: 2px; 
+    margin-left: 14%;
+    border: solid 1px black;
+}
+.contact-form textarea
+{
+    width: 60%;
+    height: auto;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 14%;
+    border: solid 1px black;
+}
+.contact-form input[type="submit"]
+{
+    width: 20%;
+    height: auto;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px; 
+    margin-left: 14%;
+    border: solid 1px rgb(172, 172, 172);
+}
+.contact-form input[type="reset"]
+{
+    width: 20%;
+    height: auto;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px; 
+    border: solid 1px black;
+}
+
+#footer
+{
+    width: 100%;
+    padding: 8px;
+    background-color: #292929;    
+}
+
+.footer-container 
+{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-container div 
+{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.footer-newsletter input 
+{
+    width: 90%;
+}
+.footer-social a 
+{
+    margin: 0 10px;
+    font-size: 22px;
+    color: #bbb;
+}
+.footer-bottom 
+{
+    margin-top: 20px;
+    font-size: 16px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    text-align: center; 
+}
+h3
+{
+    font-size: 20px;
+}
+
+}
